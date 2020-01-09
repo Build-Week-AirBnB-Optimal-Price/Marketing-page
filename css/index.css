@@ -135,6 +135,12 @@ body {
   max-width: 800px;
   margin: 0 auto;
 }
+@media (max-width: 500px) {
+  html,
+  body {
+    width: 100%;
+  }
+}
 p {
   font-size: 2rem;
 }
@@ -165,6 +171,9 @@ a {
 a:hover {
   color: skyblue;
 }
+a:hover {
+  color: skyblue;
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
@@ -178,6 +187,13 @@ footer {
 .home {
   height: 30rem;
   width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+@media (max-width: 500px) {
+  .home {
+    width: 100%;
+  }
 }
 h2 {
   display: flex;
@@ -197,6 +213,17 @@ h1 {
   flex-wrap: wrap;
   justify-content: space-evenly;
   padding-bottom: 5px;
+<<<<<<< HEAD
+}
+@media (max-width: 500px) {
+  .Team {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    width: 100%;
+  }
+=======
+>>>>>>> f9cd366dfe99f71f1545b82dfa45fba9c36980b2
 }
 .about-cards {
   height: 100%;
@@ -210,6 +237,13 @@ h1 {
 .about-cards .Photo {
   height: 20rem;
 }
+<<<<<<< HEAD
+@media (max-width: 500px) {
+  .about-cards .Photo {
+    height: 50rem;
+  }
+}
+=======
 .home .intro h2 {
   padding: 5px;
 }
@@ -277,3 +311,4 @@ h1 {
   font-size: 1.8rem;
   margin-left: 15px;
 }
+>>>>>>> f9cd366dfe99f71f1545b82dfa45fba9c36980b2

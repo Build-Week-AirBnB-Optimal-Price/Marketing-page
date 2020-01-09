@@ -1,6 +1,13 @@
+
+
 .home{
    height: 30rem;
    width: 100%;
+   display: flex;
+   flex-wrap: wrap;
+   @media @phone {
+    width: 100%;
+   }
 }
 
 
@@ -18,7 +25,7 @@ h1{
 }
 
 .Us{
-   padding: 20px;
+    padding: 20px;
 }
 
 
@@ -27,7 +34,12 @@ display: flex;
 flex-wrap: wrap;
 justify-content: space-evenly;
 padding-bottom: 5px;
-
+@media @phone {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    width: 100%;
+}
 }
 
 
@@ -41,5 +53,8 @@ padding-bottom: 5px;
         }
 .Photo{
 height: 20rem;
+@media @phone {
+   height: 50rem; 
+}
 }
 }
