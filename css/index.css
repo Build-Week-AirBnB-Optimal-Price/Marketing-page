@@ -249,7 +249,7 @@ h1 {
   display: flex;
   margin-bottom: 125px;
 }
-@media ((max-width: 500px)) {
+@media (max-width: 500px) {
   .home .city-images {
     display: inline;
   }
@@ -277,7 +277,7 @@ h1 {
   width: 100%;
   display: flex;
 }
-@media ((max-width: 500px)) {
+@media (max-width: 500px) {
   .home .home-images {
     display: inline;
   }
