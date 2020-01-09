@@ -166,10 +166,6 @@ a {
   color: gray;
   font-size: 18px;
   margin-right: 38px;
-  background-color: skyblue;
-}
-a:hover {
-  color: skyblue;
 }
 a:hover {
   color: skyblue;
@@ -213,7 +209,6 @@ h1 {
   flex-wrap: wrap;
   justify-content: space-evenly;
   padding-bottom: 5px;
-<<<<<<< HEAD
 }
 @media (max-width: 500px) {
   .Team {
@@ -222,8 +217,6 @@ h1 {
     justify-content: center;
     width: 100%;
   }
-=======
->>>>>>> f9cd366dfe99f71f1545b82dfa45fba9c36980b2
 }
 .about-cards {
   height: 100%;
@@ -237,13 +230,11 @@ h1 {
 .about-cards .Photo {
   height: 20rem;
 }
-<<<<<<< HEAD
 @media (max-width: 500px) {
   .about-cards .Photo {
     height: 50rem;
   }
 }
-=======
 .home .intro h2 {
   padding: 5px;
 }
@@ -258,7 +249,7 @@ h1 {
   display: flex;
   margin-bottom: 125px;
 }
-@media (max-width: 500px) {
+@media ((max-width: 500px)) {
   .home .city-images {
     display: inline;
   }
@@ -286,7 +277,7 @@ h1 {
   width: 100%;
   display: flex;
 }
-@media (max-width: 500px) {
+@media ((max-width: 500px)) {
   .home .home-images {
     display: inline;
   }
@@ -311,4 +302,3 @@ h1 {
   font-size: 1.8rem;
   margin-left: 15px;
 }
->>>>>>> f9cd366dfe99f71f1545b82dfa45fba9c36980b2
