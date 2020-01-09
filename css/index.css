@@ -210,3 +210,70 @@ h1 {
 .about-cards .Photo {
   height: 20rem;
 }
+.home .intro h2 {
+  padding: 5px;
+}
+.home .intro p {
+  padding: 0 15px;
+}
+.home .intro img {
+  width: 100%;
+}
+.home .city-images {
+  width: 100%;
+  display: flex;
+  margin-bottom: 125px;
+}
+@media (max-width: 500px) {
+  .home .city-images {
+    display: inline;
+  }
+}
+.home .city-postcard {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 30px;
+}
+.home .city-postcard img {
+  width: 95%;
+  margin: 20px 2.5%;
+}
+.home .city-postcard h3 {
+  font-size: 2.5rem;
+  margin-left: 15px;
+  margin-bottom: 5px;
+}
+.home .city-postcard p {
+  font-size: 1.8rem;
+  margin-left: 15px;
+}
+.home .home-images {
+  width: 100%;
+  display: flex;
+}
+@media (max-width: 500px) {
+  .home .home-images {
+    display: inline;
+  }
+}
+.home .home-postcard {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 30px;
+}
+.home .home-postcard img {
+  width: 95%;
+  margin: 20px 2.5%;
+  border-radius: 20px;
+}
+.home .home-postcard h3 {
+  font-size: 2.5rem;
+  margin-left: 15px;
+  margin-bottom: 5px;
+}
+.home .home-postcard p {
+  font-size: 1.8rem;
+  margin-left: 15px;
+}
