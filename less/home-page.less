@@ -1,5 +1,9 @@
 .home {
 
+  h2 {
+    .widen();
+  }
+
   .intro {
     h2 {
       padding: 5px;
@@ -18,7 +22,6 @@
   .city-images {
       .widen();
       display: flex;
-      margin-bottom: 125px;
 
       @media @phone {
       display: inline;    
@@ -50,7 +53,7 @@
   }
 
   .home-images {
-      width: 100%;
+      .widen();
       display: flex;
 
       @media @phone {
@@ -61,7 +64,7 @@
   .home-postcard {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    .widen();
     margin-bottom: 30px;
 
     img {
@@ -82,4 +85,9 @@
         margin-left: 15px;
     }
   }
+
 }// home
+.home-foot {
+  .widen();
+  text-align: center;
+}

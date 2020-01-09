@@ -235,6 +235,9 @@ h1 {
     height: 50rem;
   }
 }
+.home h2 {
+  width: 100%;
+}
 .home .intro h2 {
   padding: 5px;
 }
@@ -247,7 +250,6 @@ h1 {
 .home .city-images {
   width: 100%;
   display: flex;
-  margin-bottom: 125px;
 }
 @media (max-width: 500px) {
   .home .city-images {
@@ -301,4 +303,8 @@ h1 {
 .home .home-postcard p {
   font-size: 1.8rem;
   margin-left: 15px;
+}
+.home-foot {
+  width: 100%;
+  text-align: center;
 }
